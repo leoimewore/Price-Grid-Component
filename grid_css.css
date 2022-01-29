@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+section.info {
+    padding: 1em 1em 1em 3.5em;
+    background-color: hsl(179, 62%, 43%);
+    /* border:1px solid cyan;  */
+}
+header {
+    background-color: #fff;
+    /* border:1px solid cyan; */
+    padding: 1em 1em 1em 3.5em;
+    grid-column: span 2;
+    margin-left: 20px;
+}
+
+
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#services {
+    list-style-type: none;
+    color: #fff;
+    padding-left: 10px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+h2 {
+    padding-left: 10px;
+    color:#fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.join-1 {
+    color:#C0DF33;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    
+    
+}
+.join-2 {
+    color:#9AA7BE;
+    font-size: 16px ;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 17px;
+    
+}
+
+
+p.price-per-day {
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-left: 10px;
+}
+.price {
+    font-size: 150%;
+}
+p.price-per-month {
+    color: white;
+    margin-left: 10px;
+}
+
+button {
+    width:250px;
+    height:50px;
+    margin-left: 10px;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-size: 18px;
+    background: #C0DF33 ;
+    border-radius: 0.5em;
+    border: 1px solid #C0DF33;
+}
+
+
+
+button:hover {
+    background-color:#89a10f;
+}
